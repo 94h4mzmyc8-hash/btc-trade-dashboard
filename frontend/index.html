@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BTC Trade Desk - Live Analysis</title>
+<link rel="stylesheet" href="./style.css" />
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+<header>
+  <div class="brand">BTC TRADE DESK</div>
+  <div class="ticker">
+    <span id="price" class="price">--</span>
+    <span id="chg24" class="chg">--</span>
+    <span id="fng" class="badge">F&amp;G --</span>
+  </div>
+  <div class="meta">
+    <span id="genTime">--</span>
+    <button id="refresh">REFRESH</button>
+  </div>
+</header>
+
+<main>
+  <section class="grid-2">
+    <div class="card">
+      <h3>SCENARIO MATRIX</h3>
+      <div id="scenarios" class="scenarios"></div>
+    </div>
+    <div class="card">
+      <h3>ON-CHAIN & DERIVATIVES</h3>
+      <div id="onchain" class="onchain"></div>
+    </div>
+  </section>
+
+  <section class="grid-2">
+    <div class="card">
+      <h3>RESISTANCE</h3>
+      <div id="resistance" class="ladder"></div>
+    </div>
+    <div class="card">
+      <h3>SUPPORT</h3>
+      <div id="support" class="ladder"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>SIGNALS</h3>
+    <div id="signals" class="signals"></div>
+  </section>
+
+  <section class="card">
+    <h3>TRADE PLAN</h3>
+    <div id="trades" class="trades"></div>
+  </section>
+
+  <section class="grid-2">
+    <div class="card">
+      <h3>KILL SWITCHES</h3>
+      <div id="killswitches" class="killswitches"></div>
+    </div>
+    <div class="card">
+      <h3>IST WINDOWS & RISK RULES</h3>
+      <div id="windows"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>PRICE HISTORY (15-min snapshots, IST)</h3>
+    <div id="chart"></div>
+  </section>
+</main>
+
+<footer>Data: CoinMarketCap / Glassnode / CoinGecko / alternative.me · Plan refreshed every 15 min via GitHub Actions · Not financial advice</footer>
+<script src="./app.js"></script>
+</body>
+</html>

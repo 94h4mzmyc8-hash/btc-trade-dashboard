@@ -1,0 +1,243 @@
+{
+  "generatedAt": "2026-08-14T19:39:03.187Z",
+  "generatedAtIST": "15/8/2026, 1:09:03 am",
+  "price": 62793.84,
+  "change24h": -0.88,
+  "change7d": -3.08,
+  "change30d": -3.23,
+  "volume24h": 20299331808,
+  "marketCap": 1260284028743,
+  "btcDominance": 58.4,
+  "fearGreed": {
+    "value": 29,
+    "classification": "Fear",
+    "prevValue": 29,
+    "updated": 1786736343186
+  },
+  "onchain": {
+    "funding": {
+      "latest": 0.0000514,
+      "high24h": 0.0000997,
+      "low24h": 0.0000376
+    },
+    "oi": {
+      "oiBtc": 487099,
+      "change24hPct": 1.44
+    },
+    "netflow": {
+      "netflow24h": -1585
+    },
+    "sopr": {
+      "sopr": 0.998
+    },
+    "realizedCapUsd": 1058164509375,
+    "mvrv": 1.191009543012722
+  },
+  "levels": {
+    "sma7": 64332.71428571428,
+    "sma30": null,
+    "pivot": 63839.666666666664,
+    "r1": 65438.33333333333,
+    "s1": 62316.33333333333,
+    "fib38": 63410.834,
+    "fib50": 62335.5,
+    "fib618": 61260.166,
+    "fib786": 59729.182,
+    "swingHigh": 66892,
+    "swingLow": 57779,
+    "high90": 66892,
+    "low90": 57779
+  },
+  "levelMap": {
+    "support": [
+      {
+        "name": "Breakdown line",
+        "level": 62000,
+        "dist": 1.2642004374951374
+      },
+      {
+        "name": "Invalidation",
+        "level": 61850,
+        "dist": 1.5030773719205524
+      },
+      {
+        "name": "78.6% fib",
+        "level": 59729,
+        "dist": 4.880507387348816
+      },
+      {
+        "name": "July low",
+        "level": 59200,
+        "dist": 5.7232365467695505
+      },
+      {
+        "name": "Recent swing low",
+        "level": 57779,
+        "dist": 7.986197372226315
+      },
+      {
+        "name": "90d floor",
+        "level": 57779,
+        "dist": 7.986197372226315
+      }
+    ],
+    "resistance": [
+      {
+        "name": "61.8% fib / SMA30",
+        "level": 61260,
+        "dist": 2.442395623519758
+      },
+      {
+        "name": "38.2% fib",
+        "level": 63411,
+        "dist": -0.982570901859173
+      },
+      {
+        "name": "Pivot",
+        "level": 63840,
+        "dist": -1.6654924538245595
+      },
+      {
+        "name": "50% fib / SMA7",
+        "level": 64333,
+        "dist": -2.4506771455835255
+      },
+      {
+        "name": "Swing-high cluster",
+        "level": 65350,
+        "dist": -4.070717764672464
+      },
+      {
+        "name": "Range top",
+        "level": 66892,
+        "dist": -6.5263726505657305
+      }
+    ]
+  },
+  "scenarios": {
+    "flushHold": 42,
+    "breakdown": 25,
+    "breakout": 19,
+    "grind": 14
+  },
+  "signals": [
+    {
+      "id": "A_BUY_ZONE",
+      "active": false,
+      "text": "LONG (Trade A): price in 62,200-62,650 zone"
+    },
+    {
+      "id": "A_CONFIRM",
+      "active": true,
+      "text": "A-CONFIRM: 15m reclaim above 62,750"
+    },
+    {
+      "id": "C1_TRIGGERED",
+      "active": false,
+      "text": "SHORT (Trade C1): price below 62,000 breakdown line"
+    },
+    {
+      "id": "B_SELL_ZONE",
+      "active": false,
+      "text": "SHORT (Trade B): price in 65,300-65,500 zone"
+    },
+    {
+      "id": "C2_BREAKOUT",
+      "active": false,
+      "text": "LONG (Trade C2): breakout above 66,000"
+    },
+    {
+      "id": "STOP_RAID",
+      "active": false,
+      "text": "Invalidation: below 61,850 - flush failing, all longs exit"
+    },
+    {
+      "id": "KILL_LONG_CROWD",
+      "active": false,
+      "text": "KILL SWITCH: funding >0.010%/h - long crowd, fade rallies"
+    },
+    {
+      "id": "SHORT_CROWDED",
+      "active": false,
+      "text": "Shorts crowded (funding <0.002%/h) - long bias"
+    }
+  ],
+  "killSwitches": [],
+  "trades": [
+    {
+      "id": "A",
+      "name": "LONG - buy the flush",
+      "status": "STAGED",
+      "entry": "62,200-62,650 (2-step scale-in: 62,540-650 / 62,240-320)",
+      "stop": "61,850",
+      "targets": "T1 63,450 (pivot) -> T2 64,000 (61.8% fib)",
+      "confirmation": "15m close above 62,750 or rejection wick on zone",
+      "rr": "2.5-3.5:1"
+    },
+    {
+      "id": "C1",
+      "name": "SHORT - breakdown continuation",
+      "status": "CONTINGENCY",
+      "entry": "61,950-62,100 on retest after 4h close < 62,000",
+      "stop": "62,600",
+      "targets": "61,000 -> 59,000 (July low)",
+      "confirmation": "4h close below 62,000",
+      "rr": "2.5:1"
+    },
+    {
+      "id": "B",
+      "name": "SHORT - range resistance",
+      "status": "DEACTIVATED tonight (unreachable; reactivate on reclaim of 63,500)",
+      "entry": "65,300-65,500 on 15m rejection",
+      "stop": "65,900",
+      "targets": "64,000 -> 63,400",
+      "confirmation": "Daily close below 66,000",
+      "rr": "2.2:1"
+    },
+    {
+      "id": "C2",
+      "name": "LONG - momentum breakout",
+      "status": "OPTIONALITY",
+      "entry": "4h close > 66,000",
+      "stop": "65,000",
+      "targets": "67,000 -> 68,200",
+      "confirmation": "Holds 2 hours above 66,000",
+      "rr": "2.5:1"
+    }
+  ],
+  "timeWindows": [
+    {
+      "t": "19:00-20:00",
+      "e": "London/NY overlap open",
+      "a": "Monitor news flow, avoid entries"
+    },
+    {
+      "t": "23:30-00:30",
+      "e": "US morning, CME rollover",
+      "a": "High liquidity; primary entry window"
+    },
+    {
+      "t": "01:30-02:30",
+      "e": "NY close + CME settlement",
+      "a": "Flush low or reclaim prints here"
+    },
+    {
+      "t": "02:30-06:30",
+      "e": "Late NY / Asia",
+      "a": "Trail stops, flat by 06:30"
+    },
+    {
+      "t": "06:30-13:30",
+      "e": "Asia session",
+      "a": "Reassess; watch for funding drift"
+    }
+  ],
+  "riskRules": {
+    "riskPerTradePct": 0.5,
+    "maxDailyLossPct": 1,
+    "maxTradesPerSession": 3,
+    "leverageCap": 5,
+    "flatByIST": "06:30",
+    "noPositionsThrough": "FOMC minutes 19 Aug 23:30 IST"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "btc-trade-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Continuous BTC analysis engine and trade plan generator",
+  "scripts": {
+    "analyze": "node lib/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
