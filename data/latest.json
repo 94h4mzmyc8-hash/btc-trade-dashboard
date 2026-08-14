@@ -1,37 +1,26 @@
 {
-  "generatedAt": "2026-08-14T19:39:03.187Z",
-  "generatedAtIST": "15/8/2026, 1:09:03 am",
-  "price": 62793.84,
-  "change24h": -0.88,
-  "change7d": -3.08,
-  "change30d": -3.23,
-  "volume24h": 20299331808,
-  "marketCap": 1260284028743,
-  "btcDominance": 58.4,
+  "generatedAt": "2026-08-14T20:42:12.482Z",
+  "generatedAtIST": "15/8/2026, 2:12:12 am",
+  "price": 62855,
+  "change24h": -0.83449,
+  "change7d": -3.19349,
+  "change30d": -3.18378,
+  "volume24h": 20365011595,
+  "marketCap": 1261551354093,
+  "btcDominance": null,
   "fearGreed": {
     "value": 29,
     "classification": "Fear",
     "prevValue": 29,
-    "updated": 1786736343186
+    "updated": 1786665600000
   },
   "onchain": {
-    "funding": {
-      "latest": 0.0000514,
-      "high24h": 0.0000997,
-      "low24h": 0.0000376
-    },
-    "oi": {
-      "oiBtc": 487099,
-      "change24hPct": 1.44
-    },
-    "netflow": {
-      "netflow24h": -1585
-    },
-    "sopr": {
-      "sopr": 0.998
-    },
-    "realizedCapUsd": 1058164509375,
-    "mvrv": 1.191009543012722
+    "funding": null,
+    "oi": null,
+    "netflow": null,
+    "sopr": null,
+    "realizedCapUsd": null,
+    "mvrv": null
   },
   "levels": {
     "sma7": 64332.71428571428,
@@ -39,86 +28,86 @@
     "pivot": 63839.666666666664,
     "r1": 65438.33333333333,
     "s1": 62316.33333333333,
-    "fib38": 63410.834,
-    "fib50": 62335.5,
-    "fib618": 61260.166,
-    "fib786": 59729.182,
-    "swingHigh": 66892,
+    "fib38": 70325.018,
+    "fib50": 67929.5,
+    "fib618": 65533.982,
+    "fib786": 62123.414,
+    "swingHigh": 78080,
     "swingLow": 57779,
-    "high90": 66892,
+    "high90": 81976,
     "low90": 57779
   },
   "levelMap": {
     "support": [
       {
+        "name": "78.6% fib",
+        "level": 62123,
+        "dist": 1.1639264974942376
+      },
+      {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 1.2642004374951374
+        "dist": 1.3602736456924667
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 1.5030773719205524
-      },
-      {
-        "name": "78.6% fib",
-        "level": 59729,
-        "dist": 4.880507387348816
+        "dist": 1.5989181449367593
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 5.7232365467695505
+        "dist": 5.814970964919259
       },
       {
         "name": "Recent swing low",
         "level": 57779,
-        "dist": 7.986197372226315
+        "dist": 8.075729854426855
       },
       {
         "name": "90d floor",
         "level": 57779,
-        "dist": 7.986197372226315
+        "dist": 8.075729854426855
       }
     ],
     "resistance": [
       {
-        "name": "61.8% fib / SMA30",
-        "level": 61260,
-        "dist": 2.442395623519758
-      },
-      {
-        "name": "38.2% fib",
-        "level": 63411,
-        "dist": -0.982570901859173
-      },
-      {
         "name": "Pivot",
         "level": 63840,
-        "dist": -1.6654924538245595
-      },
-      {
-        "name": "50% fib / SMA7",
-        "level": 64333,
-        "dist": -2.4506771455835255
+        "dist": -1.566568557261418
       },
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": -4.070717764672464
+        "dist": -3.9694535040967307
+      },
+      {
+        "name": "61.8% fib / SMA30",
+        "level": 65534,
+        "dist": -4.262162119163159
+      },
+      {
+        "name": "50% fib / SMA7",
+        "level": 67930,
+        "dist": -8.073343409434413
+      },
+      {
+        "name": "38.2% fib",
+        "level": 70325,
+        "dist": -11.884524699705667
       },
       {
         "name": "Range top",
-        "level": 66892,
-        "dist": -6.5263726505657305
+        "level": 78080,
+        "dist": -24.22241667329568
       }
     ]
   },
   "scenarios": {
-    "flushHold": 42,
-    "breakdown": 25,
-    "breakout": 19,
-    "grind": 14
+    "flushHold": 38,
+    "breakdown": 27,
+    "breakout": 20,
+    "grind": 15
   },
   "signals": [
     {
@@ -150,16 +139,6 @@
       "id": "STOP_RAID",
       "active": false,
       "text": "Invalidation: below 61,850 - flush failing, all longs exit"
-    },
-    {
-      "id": "KILL_LONG_CROWD",
-      "active": false,
-      "text": "KILL SWITCH: funding >0.010%/h - long crowd, fade rallies"
-    },
-    {
-      "id": "SHORT_CROWDED",
-      "active": false,
-      "text": "Shorts crowded (funding <0.002%/h) - long bias"
     }
   ],
   "killSwitches": [],
