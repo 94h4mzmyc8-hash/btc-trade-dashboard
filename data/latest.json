@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-25T12:20:19.606Z",
-  "generatedAtIST": "25/8/2026, 5:50:19 pm",
-  "price": 79018,
-  "change24h": 1.12133,
-  "change7d": 22.94409,
-  "change30d": 22.53023,
-  "volume24h": 54514814305,
-  "marketCap": 1586257248798,
+  "generatedAt": "2026-08-25T13:24:56.541Z",
+  "generatedAtIST": "25/8/2026, 6:54:56 pm",
+  "price": 78686,
+  "change24h": -0.37463,
+  "change7d": 22.72501,
+  "change30d": 22.17451,
+  "volume24h": 52256454752,
+  "marketCap": 1580514700310,
   "btcDominance": null,
   "fearGreed": {
     "value": 74,
@@ -42,64 +42,64 @@
       {
         "name": "78.6% fib",
         "level": 62389,
-        "dist": 21.04485813358982
+        "dist": 20.711722542764914
       },
       {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 21.536865018097142
+        "dist": 21.20580535292174
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 21.72669518337594
+        "dist": 21.39643646900338
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 25.08036143663469
+        "dist": 24.76425285311237
       },
       {
         "name": "Recent swing low",
         "level": 57779,
-        "dist": 26.878685869042496
+        "dist": 26.570164959459113
       },
       {
         "name": "90d floor",
         "level": 57779,
-        "dist": 26.878685869042496
+        "dist": 26.570164959459113
       }
     ],
     "resistance": [
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": 17.297324660204005
+        "dist": 16.948377093765092
       },
       {
         "name": "61.8% fib / SMA30",
         "level": 66008,
-        "dist": 16.46503075248678
+        "dist": 16.112571486668532
       },
       {
         "name": "50% fib / SMA7",
         "level": 68550,
-        "dist": 13.248247234807259
+        "dist": 12.88221538774369
       },
       {
         "name": "38.2% fib",
         "level": 71091,
-        "dist": 10.031463717127739
+        "dist": 9.651859288818846
       },
       {
         "name": "Pivot",
         "level": 72972,
-        "dist": 7.651843039982445
+        "dist": 7.2621982733057076
       },
       {
         "name": "Range top",
         "level": 79320,
-        "dist": -0.3821913994279785
+        "dist": -0.8057341839717357
       }
     ]
   },
