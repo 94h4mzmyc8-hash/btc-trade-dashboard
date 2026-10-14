@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-13T22:42:29.221Z",
-  "generatedAtIST": "14/10/2026, 4:12:29 am",
-  "price": 83443,
-  "change24h": 1.20839,
-  "change7d": -2.51687,
-  "change30d": 7.99773,
-  "volume24h": 32518487922,
-  "marketCap": 1677010897293,
+  "generatedAt": "2026-10-14T01:23:24.769Z",
+  "generatedAtIST": "14/10/2026, 6:53:24 am",
+  "price": 83256,
+  "change24h": 1.52408,
+  "change7d": -2.65524,
+  "change30d": 8.45279,
+  "volume24h": 29311392292,
+  "marketCap": 1673273811554,
   "btcDominance": null,
   "fearGreed": {
-    "value": 57,
+    "value": 62,
     "classification": "Greed",
-    "prevValue": 69,
-    "updated": 1791849600000
+    "prevValue": 57,
+    "updated": 1791936000000
   },
   "onchain": {
     "funding": null,
@@ -23,11 +23,11 @@
     "mvrv": null
   },
   "levels": {
-    "sma7": 82689.28571428571,
+    "sma7": 83763.42857142857,
     "sma30": null,
-    "pivot": 83358.66666666667,
-    "r1": 86290.33333333334,
-    "s1": 79631.33333333334,
+    "pivot": 83540.66666666667,
+    "r1": 86654.33333333334,
+    "s1": 79995.33333333334,
     "fib38": 77746.00200000001,
     "fib50": 74785.5,
     "fib618": 71824.99799999999,
@@ -35,79 +35,79 @@
     "swingHigh": 87330,
     "swingLow": 62241,
     "high90": 87330,
-    "low90": 61782
+    "low90": 62241
   },
   "levelMap": {
     "support": [
       {
         "name": "78.6% fib",
         "level": 67610,
-        "dist": 18.974574260273478
+        "dist": 18.792584318247332
       },
       {
         "name": "Recent swing low",
         "level": 62241,
-        "dist": 25.40896180626296
+        "dist": 25.241424041510523
+      },
+      {
+        "name": "90d floor",
+        "level": 62241,
+        "dist": 25.241424041510523
       },
       {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 25.697781719257456
+        "dist": 25.53089266839627
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 25.87754515058183
-      },
-      {
-        "name": "90d floor",
-        "level": 61782,
-        "dist": 25.95903790611555
+        "dist": 25.711059863553377
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 29.05336577064583
+        "dist": 28.894013644662248
       }
     ],
     "resistance": [
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": 21.683065086346367
+        "dist": 21.507158643220908
       },
       {
         "name": "61.8% fib / SMA30",
         "level": 71825,
-        "dist": 13.923279364356517
+        "dist": 13.729943787835118
       },
       {
         "name": "38.2% fib",
         "level": 77746,
-        "dist": 6.827412724854083
-      },
-      {
-        "name": "50% fib / SMA7",
-        "level": 82689,
-        "dist": 0.903268441588018
+        "dist": 6.618139233208408
       },
       {
         "name": "Pivot",
-        "level": 83359,
-        "dist": 0.10106699583347731
+        "level": 83541,
+        "dist": -0.3419172992537133
+      },
+      {
+        "name": "50% fib / SMA7",
+        "level": 83763,
+        "dist": -0.6094798830457447
       },
       {
         "name": "Range top",
         "level": 87330,
-        "dist": -4.658269717052359
+        "dist": -4.893341020466993
       }
     ]
   },
   "scenarios": {
-    "flushHold": 29,
-    "breakdown": 26,
-    "breakout": 29,
-    "grind": 15
+    "flushHold": 28,
+    "breakdown": 31,
+    "breakout": 28,
+    "grind": 14
   },
   "signals": [
     {
