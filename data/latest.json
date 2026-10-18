@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-18T09:11:20.785Z",
-  "generatedAtIST": "18/10/2026, 2:41:20 pm",
-  "price": 81870,
-  "change24h": 0.29242,
-  "change7d": -1.33054,
-  "change30d": 4.7163,
-  "volume24h": 15069340436,
-  "marketCap": 1644951591030,
+  "generatedAt": "2026-10-18T13:14:02.307Z",
+  "generatedAtIST": "18/10/2026, 6:44:02 pm",
+  "price": 81851,
+  "change24h": 0.54746,
+  "change7d": -1.42387,
+  "change30d": 4.9688,
+  "volume24h": 15862287886,
+  "marketCap": 1645143129236,
   "btcDominance": null,
   "fearGreed": {
     "value": 53,
@@ -42,64 +42,64 @@
       {
         "name": "78.6% fib",
         "level": 67610,
-        "dist": 17.417801392451445
+        "dist": 17.3986316599675
       },
       {
         "name": "Recent swing low",
         "level": 62241,
-        "dist": 23.97581531696592
+        "dist": 23.95816789043506
       },
       {
         "name": "90d floor",
         "level": 62241,
-        "dist": 23.97581531696592
+        "dist": 23.95816789043506
       },
       {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 24.27018443874435
+        "dist": 24.25260534385652
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 24.453401734457067
+        "dist": 24.435865169637513
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 27.6902406253817
+        "dist": 27.67345542510171
       }
     ],
     "resistance": [
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": 20.178331501160375
+        "dist": 20.159802568081027
       },
       {
         "name": "61.8% fib / SMA30",
         "level": 71825,
-        "dist": 12.269454012458786
+        "dist": 12.249089198665878
       },
       {
         "name": "38.2% fib",
         "level": 77746,
-        "dist": 5.0372517405643
+        "dist": 5.015208122075469
       },
       {
         "name": "Pivot",
         "level": 82622,
-        "dist": -0.9189365253857683
+        "dist": -0.9423627485715855
       },
       {
         "name": "50% fib / SMA7",
         "level": 83789,
-        "dist": -2.343610951159509
+        "dist": -2.3673678827556044
       },
       {
         "name": "Range top",
         "level": 87330,
-        "dist": -6.669109563942836
+        "dist": -6.693870569693712
       }
     ]
   },
