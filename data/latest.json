@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T09:07:52.893Z",
-  "generatedAtIST": "14/11/2026, 2:37:52 pm",
-  "price": 67055,
-  "change24h": -2.5256,
-  "change7d": -11.91435,
-  "change30d": -17.50331,
-  "volume24h": 33436744422,
-  "marketCap": 1348593609991,
+  "generatedAt": "2026-11-14T15:45:27.852Z",
+  "generatedAtIST": "14/11/2026, 9:15:27 pm",
+  "price": 65463,
+  "change24h": -3.93069,
+  "change7d": -13.7334,
+  "change30d": -19.95966,
+  "volume24h": 33376505940,
+  "marketCap": 1316498937441,
   "btcDominance": null,
   "fearGreed": {
     "value": 13,
@@ -42,64 +42,64 @@
       {
         "name": "78.6% fib",
         "level": 69090,
-        "dist": -3.034947431213187
+        "dist": -5.540662664405851
       },
       {
         "name": "Recent swing low",
         "level": 64124,
-        "dist": 4.371038699574976
+        "dist": 2.045430243038052
       },
       {
         "name": "90d floor",
         "level": 62525,
-        "dist": 6.755648348370741
+        "dist": 4.4880314070543665
       },
       {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 7.538587726493177
+        "dist": 5.290011151337397
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 7.762284691671016
+        "dist": 5.519148221132548
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 11.71426440981284
+        "dist": 9.567236454180224
       }
     ],
     "resistance": [
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": 2.5426888375214376
+        "dist": 0.1726165925790141
       },
       {
         "name": "61.8% fib / SMA30",
         "level": 72989,
-        "dist": -8.848992618000143
+        "dist": -11.49610008707208
       },
       {
         "name": "Pivot",
         "level": 75825,
-        "dist": -13.078815897397659
+        "dist": -15.828788781449063
       },
       {
         "name": "38.2% fib",
         "level": 78465,
-        "dist": -17.0163418089628
+        "dist": -19.86207170462705
       },
       {
         "name": "50% fib / SMA7",
         "level": 78506,
-        "dist": -17.077452411133713
+        "dist": -19.92466846048258
       },
       {
         "name": "Range top",
         "level": 87330,
-        "dist": -30.23637312653792
+        "dist": -33.403602034737176
       }
     ]
   },
@@ -127,12 +127,12 @@
     },
     {
       "id": "B_SELL_ZONE",
-      "active": false,
+      "active": true,
       "text": "SHORT (Trade B): price in 65,300-65,500 zone"
     },
     {
       "id": "C2_BREAKOUT",
-      "active": true,
+      "active": false,
       "text": "LONG (Trade C2): breakout above 66,000"
     },
     {
