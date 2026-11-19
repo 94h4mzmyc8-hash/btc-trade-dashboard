@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T13:52:13.446Z",
-  "generatedAtIST": "19/11/2026, 7:22:13 pm",
-  "price": 63705,
-  "change24h": -0.4193,
-  "change7d": -12.52467,
-  "change30d": -21.87181,
-  "volume24h": 33711795195,
-  "marketCap": 1281330102094,
+  "generatedAt": "2026-11-19T21:52:49.961Z",
+  "generatedAtIST": "20/11/2026, 3:22:49 am",
+  "price": 61488,
+  "change24h": -1.27335,
+  "change7d": -13.867,
+  "change30d": -25.70609,
+  "volume24h": 32726909989,
+  "marketCap": 1236606123670,
   "btcDominance": null,
   "fearGreed": {
     "value": 10,
@@ -42,72 +42,72 @@
       {
         "name": "78.6% fib",
         "level": 67474,
-        "dist": -5.916439839886978
+        "dist": -9.735343481654954
       },
       {
         "name": "Recent swing low",
         "level": 62068,
-        "dist": 2.5696570127933445
+        "dist": -0.9432734842570909
       },
       {
         "name": "90d floor",
         "level": 62068,
-        "dist": 2.5696570127933445
+        "dist": -0.9432734842570909
       },
       {
         "name": "Breakdown line",
         "level": 62000,
-        "dist": 2.67639902676399
+        "dist": -0.8326827998959146
       },
       {
         "name": "Invalidation",
         "level": 61850,
-        "dist": 2.911859351699239
+        "dist": -0.5887327608639084
       },
       {
         "name": "July low",
         "level": 59200,
-        "dist": 7.0716584255552934
+        "dist": 3.721051262034868
       }
     ],
     "resistance": [
       {
         "name": "Swing-high cluster",
         "level": 65350,
-        "dist": -2.582214896789891
+        "dist": -6.280900338277387
       },
       {
         "name": "Pivot",
         "level": 67080,
-        "dist": -5.2978573110430895
+        "dist": -9.094457455113194
       },
       {
         "name": "61.8% fib / SMA30",
         "level": 71718,
-        "dist": -12.578422415822937
+        "dist": -16.637529274004688
       },
       {
         "name": "50% fib / SMA7",
         "level": 74699,
-        "dist": -17.257672082254143
+        "dist": -21.48549310434556
       },
       {
         "name": "38.2% fib",
         "level": 77680,
-        "dist": -21.936921748685343
+        "dist": -26.33345693468644
       },
       {
         "name": "Range top",
         "level": 87330,
-        "dist": -37.08500117730162
+        "dist": -42.02771272443403
       }
     ]
   },
   "scenarios": {
-    "flushHold": 43,
-    "breakdown": 25,
-    "breakout": 19,
-    "grind": 14
+    "flushHold": 49,
+    "breakdown": 26,
+    "breakout": 17,
+    "grind": 8
   },
   "signals": [
     {
@@ -117,12 +117,12 @@
     },
     {
       "id": "A_CONFIRM",
-      "active": true,
+      "active": false,
       "text": "A-CONFIRM: 15m reclaim above 62,750"
     },
     {
       "id": "C1_TRIGGERED",
-      "active": false,
+      "active": true,
       "text": "SHORT (Trade C1): price below 62,000 breakdown line"
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "id": "STOP_RAID",
-      "active": false,
+      "active": true,
       "text": "Invalidation: below 61,850 - flush failing, all longs exit"
     }
   ],
@@ -146,7 +146,7 @@
     {
       "id": "A",
       "name": "LONG - buy the flush",
-      "status": "STAGED",
+      "status": "WAIT (invalid if 4h <62,000)",
       "entry": "62,200-62,650 (2-step scale-in: 62,540-650 / 62,240-320)",
       "stop": "61,850",
       "targets": "T1 63,450 (pivot) -> T2 64,000 (61.8% fib)",
@@ -156,7 +156,7 @@
     {
       "id": "C1",
       "name": "SHORT - breakdown continuation",
-      "status": "CONTINGENCY",
+      "status": "TRIGGERED",
       "entry": "61,950-62,100 on retest after 4h close < 62,000",
       "stop": "62,600",
       "targets": "61,000 -> 59,000 (July low)",
